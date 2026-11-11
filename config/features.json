@@ -1,0 +1,31 @@
+{
+  "FWD": [
+    "knn5",
+    "AvgNumberofChildren",
+    "log_rti",
+    "te_Metro",
+    "AvgNumberofChildren_vs_state",
+    "gen_per_adult",
+    "OwnerPercent",
+    "te_State",
+    "owner_x_income",
+    "tenure_sq",
+    "log_rent_sq",
+    "OwnerPercent_vs_state",
+    "buffer",
+    "AvgHouseholdSize",
+    "AvgGenerationsinHousehold",
+    "adults_sq",
+    "te_zip3",
+    "owner_logit",
+    "MedianHomeLengthofResidence",
+    "income_per_person_log",
+    "YoungAdultinHouseholdPercent",
+    "log_rent_vs_state"
+  ],
+  "INTER": [
+    "log_income*MedianHomeLengthofResidence",
+    "log_rent*MedianHomeLengthofResidence",
+    "log_income*AvgGenerationsinHousehold"
+  ]
+}

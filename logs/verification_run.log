@@ -1,0 +1,30 @@
+  + knn5                             16.825
+  + AvgNumberofChildren              15.977
+  + log_rti                          15.613
+  + te_Metro                         15.385
+  + AvgNumberofChildren_vs_state     15.249
+  + gen_per_adult                    15.125
+  + OwnerPercent                     14.802
+  + te_State                         14.611
+  + owner_x_income                   14.426
+  + tenure_sq                        14.296
+  + log_rent_sq                      14.230
+  + OwnerPercent_vs_state            14.191
+  + buffer                           14.158
+  + AvgHouseholdSize                 14.129
+  + AvgGenerationsinHousehold        14.010
+  + adults_sq                        13.961
+  + te_zip3                          13.943
+  + owner_logit                      13.929
+  + MedianHomeLengthofResidence      13.917
+  + income_per_person_log            13.898
+  + YoungAdultinHouseholdPercent     13.878
+  + log_rent_vs_state                13.859
+forward: 22 features, RMSE 13.859, 209s
+interactions: ['log_income*MedianHomeLengthofResidence', 'log_rent*MedianHomeLengthofResidence', 'log_income*AvgGenerationsinHousehold'], RMSE 13.643
+saved /Users/MyroslavOlefirenko/Documents/kagle us/verification_sub_H/config/features.json
+$P select_features.py  232.19s user 5.97s system 100% cpu 3:56.28 total
+features identical: True
+Seen RMSE (June from May, hierarchical drift): 1.1548   [notebook: 1.155]
+July-CV RMSE New: 12.224, bias -0.05   [notebook: 12.224, -0.05]
+CSV byte-identical
