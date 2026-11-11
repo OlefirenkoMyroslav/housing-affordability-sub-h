@@ -3,7 +3,7 @@
 **Predicting Housing Affordability in the U.S.** (Kaggle, Melissa Data).
 Submission `sub_H_july_trained_resid.csv`: public LB **10.447** (submitted 2026-10-29).
 
-**Repository:** https://github.com/OlefirenkoMyroslav/housing-affordability-sub-h (private)
+**Repository:** https://github.com/OlefirenkoMyroslav/housing-affordability-sub-h
 
 **Data used:** only the official competition files `train.csv`, `test.csv` and `sample_submission.csv`.
 No external datasets, APIs, pretrained models or hand-labelling.
